@@ -6,6 +6,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/src/app
-    command: sh -c "cd hello-next && npm run dev"
+    command: sh -c "cd [プロジェクト名] && npm run dev"
     ports:
       - "3000:3000"
